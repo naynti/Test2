@@ -1,7 +1,9 @@
+
+
  function Footer() {
     return(
         <footer>
-            <p>&copy; Your website</p>
+            <p>&copy; (new Date().getFullYear())Your website</p>
         </footer>
     );
  }
